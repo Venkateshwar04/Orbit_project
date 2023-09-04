@@ -2,6 +2,10 @@
   font-family: Serif, "Times New Roman";
   color: #444444;
 }
+#aboutbanner
+{
+  width: 1500px;
+}
 
 a {
   color: orangered;
