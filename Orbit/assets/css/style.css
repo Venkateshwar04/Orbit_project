@@ -1,14 +1,21 @@
-  body {
+body
+{
   font-family: Serif, "Times New Roman";
   color: #444444;
 }
+#aboutbanner
+{
+  width: 1500px;
+}
 
-a {
+a 
+{
   color: orangered;
   text-decoration: none;
 }
 
-a:hover {
+a:hover
+{
   color: orangered;
   text-decoration: none;
 }
@@ -18,14 +25,16 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6 
+{
   font-family: "Raleway", sans-serif;
 }
 
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
-.back-to-top {
+.back-to-top 
+{
   position: fixed;
   visibility: hidden;
   opacity: 0;
@@ -39,18 +48,21 @@ h6 {
   transition: all 0.4s;
 }
 
-.back-to-top i {
+.back-to-top i 
+{
   font-size: 28px;
   color: #fff;
   line-height: 0;
 }
 
-.back-to-top:hover {
+.back-to-top:hover 
+{
   background: orangered;
   color: #fff;
 }
 
-.back-to-top.active {
+.back-to-top.active 
+{
   visibility: visible;
   opacity: 1;
 }
@@ -58,7 +70,8 @@ h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-#preloader {
+#preloader 
+{
   position: fixed;
   top: 0;
   left: 0;
@@ -69,7 +82,8 @@ h6 {
   background: #fff;
 }
 
-#preloader:before {
+#preloader:before 
+{
   content: "";
   position: fixed;
   top: calc(50% - 30px);
@@ -83,7 +97,8 @@ h6 {
   animation: animate-preloader 1s linear infinite;
 }
 
-@keyframes animate-preloader {
+@keyframes animate-preloader 
+{
   0% {
     transform: rotate(0deg);
   }
@@ -96,7 +111,8 @@ h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) 
+{
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
@@ -105,7 +121,8 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-#header {
+#header 
+{
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
@@ -113,7 +130,8 @@ h6 {
   box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
 }
 
-#header .logo {
+#header .logo 
+{
   font-size: 30px;
   margin: 0;
   padding: 0;
@@ -124,18 +142,21 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#header .logo a {
+#header .logo a 
+{
   color: orangered;
 }
 
-#header .logo img {
+#header .logo img 
+{
   max-height: 40px;
 }
 
 /**
 * Get Startet Button 
 */
-.get-started-btn {
+.get-started-btn 
+{
   margin-left: 22px;
   background: orangered;
   color: #fff;
@@ -147,12 +168,14 @@ h6 {
   display: inline-block;
 }
 
-.get-started-btn:hover {
+.get-started-btn:hover 
+{
   background: orangered;
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px)
+{
   .get-started-btn {
     margin: 0 15px 0 0;
     padding: 6px 18px;
@@ -165,11 +188,13 @@ h6 {
 /**
 * Desktop Navigation 
 */
-.navbar {
+.navbar 
+{
   padding: 0;
 }
 
-.navbar ul {
+.navbar ul 
+{
   margin: 0;
   padding: 0;
   display: flex;
@@ -177,12 +202,14 @@ h6 {
   align-items: center;
 }
 
-.navbar li {
+.navbar li 
+{
   position: relative;
 }
 
 .navbar a,
-.navbar a:focus {
+.navbar a:focus 
+{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -196,7 +223,8 @@ h6 {
 }
 
 .navbar a i,
-.navbar a:focus i {
+.navbar a:focus i 
+{
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
@@ -209,7 +237,8 @@ h6 {
   color: orangered;
 }
 
-.navbar .dropdown ul {
+.navbar .dropdown ul 
+{
   display: block;
   position: absolute;
   left: 30px;
@@ -225,11 +254,13 @@ h6 {
   border-radius: 4px;
 }
 
-.navbar .dropdown ul li {
+.navbar .dropdown ul li 
+{
   min-width: 200px;
 }
 
-.navbar .dropdown ul a {
+.navbar .dropdown ul a 
+{
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
@@ -246,26 +277,30 @@ h6 {
   color: orangered;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover>ul 
+{
   opacity: 1;
   top: 100%;
   visibility: visible;
 }
 
-.navbar .dropdown .dropdown ul {
+.navbar .dropdown .dropdown ul 
+{
   top: 0;
   left: calc(100% - 30px);
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover>ul 
+{
   opacity: 1;
   top: 0;
   left: 100%;
   visibility: visible;
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1366px) 
+{
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
@@ -278,7 +313,8 @@ h6 {
 /**
 * Mobile Navigation 
 */
-.mobile-nav-toggle {
+.mobile-nav-toggle 
+{
   color: #37423b;
   font-size: 28px;
   cursor: pointer;
@@ -287,11 +323,13 @@ h6 {
   transition: 0.5s;
 }
 
-.mobile-nav-toggle.bi-x {
+.mobile-nav-toggle.bi-x 
+{
   color: #fff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991px) 
+{
   .mobile-nav-toggle {
     display: block;
   }
@@ -301,7 +339,8 @@ h6 {
   }
 }
 
-.navbar-mobile {
+.navbar-mobile 
+{
   position: fixed;
   overflow: hidden;
   top: 0;
@@ -313,13 +352,15 @@ h6 {
   z-index: 999;
 }
 
-.navbar-mobile .mobile-nav-toggle {
+.navbar-mobile .mobile-nav-toggle 
+{
   position: absolute;
   top: 15px;
   right: 15px;
 }
 
-.navbar-mobile ul {
+.navbar-mobile ul 
+{
   display: block;
   position: absolute;
   top: 55px;
@@ -334,7 +375,8 @@ h6 {
 }
 
 .navbar-mobile a,
-.navbar-mobile a:focus {
+.navbar-mobile a:focus 
+{
   padding: 10px 20px;
   font-size: 15px;
   color: #37423b;
@@ -342,16 +384,19 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover>a 
+{
   color: orangered;
 }
 
 .navbar-mobile .getstarted,
-.navbar-mobile .getstarted:focus {
+.navbar-mobile .getstarted:focus 
+{
   margin: 15px;
 }
 
-.navbar-mobile .dropdown ul {
+.navbar-mobile .dropdown ul 
+{
   position: static;
   display: none;
   margin: 10px 20px;
@@ -363,32 +408,38 @@ h6 {
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
-.navbar-mobile .dropdown ul li {
+.navbar-mobile .dropdown ul li 
+{
   min-width: 200px;
 }
 
-.navbar-mobile .dropdown ul a {
+.navbar-mobile .dropdown ul a 
+{
   padding: 10px 20px;
 }
 
-.navbar-mobile .dropdown ul a i {
+.navbar-mobile .dropdown ul a i 
+{
   font-size: 12px;
 }
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover>a 
+{
   color: orangered;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active 
+{
   display: block;
 }
 
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#hero 
+{
   width: 100%;
   height: 80vh;
   background: url("../img/hero-bg.jpg") top center;
@@ -396,7 +447,8 @@ h6 {
   position: relative;
 }
 
-#hero:before {
+#hero:before 
+{
   content: "";
   background: rgba(0, 0, 0, 0.4);
   position: absolute;
@@ -406,17 +458,21 @@ h6 {
   right: 0;
 }
 
-#hero .container {
+#hero .container 
+{
   padding-top: 72px;
 }
 
-@media (max-width: 992px) {
-  #hero .container {
+@media (max-width: 992px) 
+{
+  #hero .container 
+  {
     padding-top: 62px;
   }
 }
 
-#hero h1 {
+#hero h1 
+{
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -425,13 +481,15 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#hero h2 {
+#hero h2 
+{
   color: #eee;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+#hero .btn-get-started 
+{
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -475,20 +533,24 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
+section 
+{
   padding: 60px 0;
   overflow: hidden;
 }
 
-.section-bg {
+.section-bg 
+{
   background-color: #f6f7f6;
 }
 
-.section-title {
+.section-title 
+{
   padding-bottom: 40px;
 }
 
-.section-title h2 {
+.section-title h2 
+{
   font-size: 14px;
   font-weight: 500;
   padding: 0;
@@ -804,7 +866,30 @@ section {
 
 .trainers .member .member-content {
   padding: 0 20px 30px 20px;
+  transition: color 2s, scale 1s;
 }
+.member
+{
+  overflow: hidden;
+  border-radius: 16px;
+}
+.member img 
+{
+  height: 500px;
+  object-fit: cover;
+  transition: transform 1s;  
+}
+.member:hover img
+{
+  transform: scale(1.1);
+}
+
+.member:hover
+{
+  background-color: orangered;
+  color: whitesmoke;
+}
+
 
 .trainers .member h4 {
   font-weight: 700;
